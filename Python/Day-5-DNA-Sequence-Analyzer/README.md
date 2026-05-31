@@ -11,91 +11,74 @@ Built as part of my **Bioinformatics Learning Journey**, this project represents
 ---
 
 ## 🛠️ Technologies Used
-
-* Python
-* VS Code
-* FreeCodeCamp Python
-* Apna College Python
+- Python
+- VS Code
+- FreeCodeCamp Python
+- Apna College Python
 
 ---
 
 ## 🔬 Features Implemented
 
 ### 🧪 Sequence Statistics
-
-* Calculates total DNA sequence length
-* Counts nucleotide frequency:
-
-  * Adenine (`A`)
-  * Thymine (`T`)
-  * Guanine (`G`)
-  * Cytosine (`C`)
+- Calculates total DNA sequence length
+- Counts nucleotide frequency:
+  - Adenine (`A`)
+  - Thymine (`T`)
+  - Guanine (`G`)
+  - Cytosine (`C`)
 
 ### 🌡️ Thermodynamic Indicators
-
-* Computes exact **GC Content %**
-* Computes exact **AT Content %**
+- Computes exact **GC Content %**
+- Computes exact **AT Content %**
 
 These metrics are important in:
-
-* PCR primer design
-* DNA stability analysis
-* Genomic sequence characterization
+- PCR primer design
+- DNA stability analysis
+- Genomic sequence characterization
 
 ### 🧬 Molecular Sequence Operations
-
-* Generates the complementary DNA strand
-* Produces the **Reverse Complement** strand
-* Simulates RNA transcription from DNA sequence
+- Generates the complementary DNA strand
+- Produces the **Reverse Complement** strand
+- Simulates RNA transcription from DNA sequence
 
 ### 🎯 Biological Feature Detection
-
-* Detects the `ATG` Start Codon
-* Identifies its position within the sequence
+- Detects the `ATG` Start Codon
+- Identifies its position within the sequence
 
 ---
 
 ## 🧬 Bioinformatics Relevance
 
-| Computational Feature     | Bioinformatics Application      |
-| ------------------------- | ------------------------------- |
-| Nucleotide Counting       | Sequence composition analysis   |
-| GC Content Calculation    | DNA thermal stability studies   |
-| Reverse Complement        | Genome sequence processing      |
-| RNA Transcript Generation | Central Dogma simulation        |
-| Start Codon Detection     | Translation initiation analysis |
-| Sequence Traversal        | Fundamental genomics workflows  |
-
----
+| Computational Feature | Bioinformatics Application |
+|----------------------|---------------------------|
+| Nucleotide Counting | Sequence composition analysis |
+| GC Content Calculation | DNA thermal stability studies |
+| Reverse Complement | Genome sequence processing |
+| RNA Transcript Generation | Central Dogma simulation |
+| Start Codon Detection | Translation initiation analysis |
+| Sequence Traversal | Fundamental genomics workflows |
 
 ---
 
 ## 🖥️ Sample Output
 
 ```text
-=============================================
-      DNA SEQUENCE ANALYSIS REPORT
-=============================================
-
-Sequence Length: 12
-
-Count-A: 3
-Count-T: 3
-Count-G: 3
-Count-C: 3
-
-GC Content %: 50.0
-AT Content %: 50.0
-
-Complement Strand: TACGCATGGCAT
-
+========================================
+   DNA SEQUENCE ANALYSIS REPORT
+========================================
+Sequence Length:    12
+Count-A:            3
+Count-T:            3
+Count-G:            3
+Count-C:            3
+GC Content %:       50.0
+AT Content %:       50.0
+Complement Strand:  TACGCATGGCAT
 Reverse Complement: TACGGTACGCAT
-
-Start Codon Detected: ATG at index 0
-
-RNA Transcript: UACGCAUGGCAU
-
-=============================================
+Start Codon:        ATG at index 0
+RNA Transcript:     UACGCAUGGCAU
+========================================
 ```
 
 ---
@@ -121,61 +104,54 @@ Start Codon Detection
         ↓
 Final Sequence Analysis Report
 ```
+
+---
+
 ## 🌐 Additional Practice Projects
 
-As part of strengthening my Python foundations, I also completed guided projects and exercises from the FreeCodeCamp Python Certification pathway.
+As part of strengthening my Python foundations, I also completed guided projects from the FreeCodeCamp Python Certification pathway.
 
 ### Completed FreeCodeCamp Projects
-
-* 📘 Report Card Printer
-* 👨‍💻 Employee Profile Generator
+- 📘 Report Card Printer
+- 👨‍💻 Employee Profile Generator
 
 These projects helped reinforce:
-
-* String manipulation
-* Data types
-* Variables
-* Output formatting
-* Computational thinking
-
-🔗 FreeCodeCamp Profile:
-- https://www.freecodecamp.org/learn/python-v9/
-- report_card_printer.py - https://www.freecodecamp.org/learn/python-v9/workshop-report-card-printer/step-10
-- employee_profile_generator.py - https://www.freecodecamp.org/learn/python-v9/workshop-employee-profile-generator/step-18
+- String manipulation
+- Data types and variables
+- Output formatting
+- Computational thinking
 
 ---
 
 ## 🚀 Future Improvements
 
 Planned upgrades after learning Functions & File Handling:
-
-* FASTA file parsing
-* User-input DNA analysis
-* Mutation detection system
-* Stop codon identification
-* Sequence validation pipeline
-* Dictionary-based nucleotide counting
-* Biopython integration
-* Multi-sequence genome analysis
+- FASTA file parsing
+- User-input DNA analysis
+- Mutation detection system
+- Stop codon identification
+- Sequence validation pipeline
+- Dictionary-based nucleotide counting
+- Biopython integration
+- Multi-sequence genome analysis
 
 ---
 
 ## 🌱 Learning Resources
-
-* FreeCodeCamp Python Certification
-* Apna College Python Series
+- 🌐 [FreeCodeCamp Python Certification](https://www.freecodecamp.org/learn/python-v9/)
+- report_card_printer.py - https://www.freecodecamp.org/learn/python-v9/workshop-report-card-printer/step-10
+- employee_profile_generator.py - https://www.freecodecamp.org/learn/python-v9/workshop-employee-profile-generator/step-18
 
 ---
 
 ## 🎯 Goal
 
 Build strong computational foundations for future work in:
-
-* Bioinformatics
-* Computational Biology
-* Genomics
-* Sequence Analysis
-* Data-Driven Biological Research 🧬
+- Bioinformatics
+- Computational Biology
+- Genomics
+- Sequence Analysis
+- Data-Driven Biological Research 🧬
 
 ---
 
