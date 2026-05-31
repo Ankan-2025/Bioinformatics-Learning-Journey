@@ -1,0 +1,66 @@
+# ============================================
+# DNA Sequence Analyzer
+# Author: Ankan Chanda
+# Day 5 Project — Bioinformatics Learning Journey
+# Concepts: Loops, Strings, Dictionaries, Conditionals
+# ============================================
+dna_sequence = ("ATGCGTACCGTA")
+count_A = 0
+count_G = 0
+count_C = 0
+count_T = 0
+
+i=0
+complement = ""
+while( i < len(dna_sequence)):
+    if( dna_sequence[i] == "A"):
+        complement += "T"
+        count_A += 1
+    elif( dna_sequence[i] == "T"):
+        complement += "A"
+        count_T += 1
+    elif( dna_sequence[i] == "G"):
+        complement += "C"
+        count_G += 1
+    elif( dna_sequence[i] == "C"):
+        complement += "G"
+        count_C += 1
+    else:
+        print("Not valid")
+    i += 1
+
+print("=" * 40)
+print("   DNA SEQUENCE ANALYSIS REPORT")
+print("=" * 40)
+
+print("Sequence length: ", i)
+
+print("Count-A: ", count_A)
+print("Count-T: ", count_T)
+print("Count-G: ", count_G)
+print("Count-C: ", count_C)
+
+print("GC content %: ", ((count_C + count_G)/len(dna_sequence))*100)
+
+print("AT content %: ", ((count_A + count_T)/len(dna_sequence))*100)
+
+print("Complement strand: ", complement)
+
+print("Reverse complement : ", complement[-1: :-1])
+
+print("Start codon detected: ", dna_sequence[0:3], "at the index" , dna_sequence.index("ATG"))
+
+rna_index=0
+rna_transcript = ""
+while(rna_index < len(dna_sequence)):
+    if(dna_sequence[rna_index] == "A"):
+        rna_transcript += "U"
+    elif(dna_sequence[rna_index] == "T"):
+        rna_transcript += "A"
+    elif(dna_sequence[rna_index] == "G"):
+        rna_transcript += "C"
+    elif(dna_sequence[rna_index] == "C"):
+        rna_transcript += "G"
+    rna_index += 1
+print("RNA Transcript: ", rna_transcript)
+print("=" * 40)
