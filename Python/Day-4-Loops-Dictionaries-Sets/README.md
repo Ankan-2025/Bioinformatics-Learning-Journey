@@ -101,8 +101,8 @@ By combining loops with DNA sequence analysis, I took another step toward buildi
 ---
 
 ## Notes
-- [Lecture4_py.pdf](your-pdf-link-here)
-- [Lecture5_py.pdf](your-pdf-link-here)
+- [Lecture4_py.pdf](https://drive.google.com/file/d/1FE_OCfJOb-fd3qVrpKS2iIwTxVj4NENa/view?usp=drive_link)
+- [Lecture5_py.pdf](https://drive.google.com/file/d/1qIpsTq_pcBoJjpNMk4hAG-sKvXJQ4MV1/view?usp=drive_link)
 
 ---
 
