@@ -3,6 +3,6 @@ def cal_sum(n):
         return 0
     return cal_sum(n-1) + n
 A= int(input("Enter the value:"))
-sum = cal_sum(A)
-print(sum)
+total = cal_sum(A)
+print(total)
     
