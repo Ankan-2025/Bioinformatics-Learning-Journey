@@ -1,8 +1,8 @@
-def print_list(list):
-    print(len(list))
+def print_list(items):
+    print(len(items))
 
-def print_elements(list):
-    for item in list:
+def print_elements(items):
+    for item in items:
         print(item, end =' ')
 
 names = ["Ankan", "Arnab", "Anurag"]
