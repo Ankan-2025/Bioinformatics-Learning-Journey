@@ -72,3 +72,42 @@ $ grep "ATG" research_project
 ---
 
 ## Understanding FASTA Format 🔬
+Human_BRCA1        ← header line (starts with >)
+ATGCGTACCGTA        ← sequence line
+
+FASTA is the most common file format in bioinformatics.
+Used to store DNA, RNA and protein sequences.
+Every genome database (NCBI, Ensembl) uses this format.
+
+---
+
+## Bioinformatics Connection 🔬
+
+| Linux Command | Bioinformatics Use |
+|--------------|-------------------|
+| `grep "^>"` | Count sequences in FASTA file |
+| `grep "ATG"` | Find start codons in genome |
+| `grep -r` | Search entire genome project |
+| `>>` operator | Build multi-sequence FASTA files |
+
+---
+
+## Key Takeaway 💡
+Today I created and manipulated real FASTA format files
+from the Linux terminal — the same format used in NCBI,
+Ensembl and every major genomics database.
+
+The `grep "^>"` pattern is used daily by bioinformaticians
+to count sequences and validate FASTA files before analysis.
+
+---
+
+## Learning Resources
+- 📺 [Linux Command Line Tutorial For Beginners | ProgrammingKnowledge](https://youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As)
+
+---
+
+## Goal
+Master Linux file handling for bioinformatics —
+creating, editing and searching FASTA sequence files
+from the command line. 🧬
