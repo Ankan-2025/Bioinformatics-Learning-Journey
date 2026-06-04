@@ -1,5 +1,5 @@
 dna1 = input("Enter the first sequence: ")
-dna2 = input("Enter the first sequence: ")
+dna2 = input("Enter the second sequence: ")
 i=0
 count = 0
 while(i < len(dna1) and i < len(dna2)):
