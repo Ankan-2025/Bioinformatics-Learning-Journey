@@ -117,7 +117,12 @@ Motif 'GGG' found at starting indices: [9]
 
 ```bash
 ankan_bioinfo@layy:~$ mkdir bio_project
+ankan_bioinfo@layy:~$ cd bio/-project
+-bash: cd: bio/-project: No such file or directory
+
 ankan_bioinfo@layy:~$ cd bio_project
+ankan_bioinfo@layy:~/bio_project$ pwd
+/home/ankan_bioinfo/bio_project
 
 ankan_bioinfo@layy:~/bio_project$ nano FASTA.txt
 
@@ -131,6 +136,10 @@ GGGTTTAAACC
 
 >Virus_X
 ATGAAATTTGGG
+
+ankan_bioinfo@layy:~/bio_project$ nono analyzer.py
+Command 'nono' not found, did you mean:
+  command 'nano'
 
 ankan_bioinfo@layy:~/bio_project$ nano analyzer.py
 
@@ -151,6 +160,8 @@ GC content: 33.33 %
 Reverse complement: TACGGTACGCAT
 Reverse complement: GGTTTAAACCC
 Reverse complement: CCCAAATTTCAT
+
+ankan_bioinfo@layy:~/bio_project$ nano motif_finder.py
 
 ankan_bioinfo@layy:~/bio_project$ python3 motif_finder.py
 
