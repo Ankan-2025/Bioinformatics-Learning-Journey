@@ -33,29 +33,6 @@ This project marks an important transition from learning Python syntax to buildi
 
 ---
 
-## 📂 Files Added
-
-* `FASTA.txt`
-* `analyzer.py`
-* `motif_finder.py`
-* `Lecture7_py.pdf`
-
----
-
-## 📁 Repository Structure
-
-```text
-bio_project/
-│
-├── FASTA.txt
-├── analyzer.py
-├── motif_finder.py
-├── Lecture7_py.pdf
-└── README.md
-```
-
----
-
 ## 🧬 FASTA File Example
 
 ```text
